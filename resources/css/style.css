@@ -46,6 +46,7 @@ html{
 
 .row{
     max-width: 1140px;
+    /* max-width: max-content; */
     margin: 10px 10px;
 }
 /* ...................................................... */
@@ -191,7 +192,7 @@ section{
 /* ..........Product Section.............. */
 
 .Products-section{
-    background-color: #f4f4f4de;
+    background-color: #f0efefde;
 }
 
 h4{
@@ -240,3 +241,69 @@ h3{
     color: #585959;
     margin-right: 5px;
 }
+
+/* ................................. */
+
+.row2{
+    max-width: max-content;
+    margin: 10px 10px;
+}
+
+blockquote{
+    font-style: italic;
+    font-size: 30px;
+    line-height: 140%;
+    /* margin-left: 50px; */
+}
+
+.testimonials-section{
+    background-image: url("../img/background2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    /* view high */
+    background-attachment: fixed;
+}
+
+.testimonials-section h2{
+    margin-bottom: 60px;
+    color: #7a180d;
+}
+
+cite img{
+    height: 70px;
+    border-radius: 50%;
+    vertical-align: middle;
+    
+}
+
+cite{
+    display: block;
+    color: white;
+    font-size: 150%;
+    margin-top: 30px;
+}
+
+/* ................................... */
+h5{
+    font-size: 150%;   
+}
+
+.contact-section{
+    background-color: #333333;
+
+}
+
+
+
+
+/* .................................. */
+
+
+footer{
+    text-align: center;
+    background-color: #b6b2b2;
+    color: #4d4b4b;
+    padding: 5px;
+}
+
