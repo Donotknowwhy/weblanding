@@ -285,20 +285,34 @@ cite{
 }
 
 /* ................................... */
+.row3{
+    max-width: 100%;
+    margin: 10px 10px;
+}
 h5{
     font-size: 150%;   
 }
 
 .contact-section{
     background-color: #333333;
-
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-
-
+.box1{
+    width: 50%;
+    display: flex;   
+    flex-direction: column;
+}
+.box1-form{
+    font-size: 200%;
+    border: none;
+    margin-left: 570px;
+}
 
 /* .................................. */
-
 
 footer{
     text-align: center;
